@@ -1,0 +1,271 @@
+p                        {color:black;} 
+
+h2:hover                       {color:red;} 
+  
+ 
+ a                         {text-decoration: none;
+                            color:black;
+                            font-size:0.9em;}    
+
+  a:hover                  {background-color:red;
+                            color:white;}
+
+
+.container > div            {
+                            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                            color:white;
+                            }   
+
+.container > div sector, h2         {
+                                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                                color:rgb(15, 4, 4);
+                                margin-top: 10px;
+                                }   
+
+.header_content            {text-align: left;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: left;
+                            align-content: left;}
+
+#header_pic                 {width: 65px;
+                            height:65px;}
+
+#header_pic                 {margin-top: -10px;
+                            margin-left: 0px;}
+
+.site_header                {background-color:white;
+                            }
+
+
+.site_content               {background-color:white}
+
+
+.site_widget                {background-color: white;}
+
+
+.site_footer                {background-color:white;}
+
+.header_content             {text-align: center;
+                            display: flex;
+                            flex-wrap: center;
+                            justify-content: left ;
+                            align-content: left;
+                            }
+
+
+.header_content  nav ul {
+                            text-align: right;
+                            display: flex;
+                            flex-wrap:right;
+                            justify-content: right ;
+                            align-content: right;
+                            position:absolute;
+                            margin-left:0px;
+                             
+                           }
+nav ul li   	             {display:none;
+                            flex-wrap:wrap;
+                            flex-direction:column;
+                        }
+
+
+nav ul li a                 {padding-left:5px;
+                            padding-right: 5px;}
+
+
+nav ul li a                {border: 1px solid black;}
+
+
+                            
+
+
+
+.header_content > h1        {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                             margin-top:-8px;
+                             margin-left:10px;
+                             color:rgb(15, 15, 15);
+                             font-weight: 1200;
+                              
+                              }
+.header_content > h2        {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                            font-size: 14px;
+                            margin-top:25px;
+                            margin-left:-72px;
+                            color:rgb(15, 15, 15);
+                            font-weight: 500
+}
+                            
+.header_content > h3        {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+                            font-size:12px;
+                            margin-top:37px;
+                            position:absolute;
+                            margin-left:75px;
+                            color:rgb(15, 15, 15);
+                            font-weight: 200}
+
+
+.site_content               {width:80%;
+                            margin-left: 10%;
+                            margin-right: 10%;
+                            margin-top:10px;
+                            text-align: left;
+                            
+                            }
+
+
+.welcome                    {border: 2px solid black; 
+                            width:100%;
+                            display:block;
+                            height: auto;
+                            object-fit:fill;
+                            margin-top: 2em;
+                            position:relative;
+                          
+                             }
+
+
+.soup_welcome_text         {position:absolute;
+                            margin-left: 20px;
+                            display:none;
+
+                            }
+
+.soup_welcome_text   h2     {font-size:10vw;
+                            margin-top: 60%;
+                             text-shadow:  10px 10px 10px 10px;
+                              color:rgb(184, 43, 0);
+                              }
+
+
+#soup_welcome_img          {max-width: 100%;
+                             max-height: 100%;
+                             display:block;
+
+                            }
+
+   #soup_container_1,  #soup_container_2,  #soup_container_3          
+                              
+                              {display:flex;
+                              flex-wrap: wrap;
+                              background-color: whitesmoke;
+                              border:5px solid lightgray;
+                              border-radius: 15px;
+                              padding-bottom: 25px;}                                
+
+
+                              
+
+         .soup_img             {width:200px;
+                                height:200px;
+                                padding-left:10px;
+                                padding-right:10px;
+                                padding-top:15px;
+                               }
+
+         .widget_img          {
+                            
+                              
+                              width:50px;
+                              height:50px;
+                              padding-left:10px;
+                              padding-right:10px;
+                              padding-top:45px;
+                            }
+
+
+       .soup_label             {color:whitesmoke;
+                                width:200px;
+                                margin-left: 10px;
+                                display:block;
+                                border-bottom-left-radius: 5px;
+                                border-bottom-right-radius: 5px;
+                                background-color: rgb(196, 8, 8);
+                                text-align: center;
+                                }
+            
+.site_footer                    {width:80%; 
+                                margin-left: 8%;
+                                margin-right:10%;
+                                padding-left: 15px;
+                                padding-right:15px;
+                                
+                                
+                                }
+
+                                    
+                     /* Media quieries =<800px */ 
+
+
+ @media screen and (min-width:800px) {
+
+    a                               {
+                                     color:black;
+                                     font-size:1em;
+                                    }
+
+.header_content  nav ul {
+                                    text-align: center;
+                                     display: flex;
+                                     flex-wrap:center;
+                                     justify-content: center ;
+                                     align-content: center;
+                                     position:absolute;
+                                     padding-left:4%}
+
+                                     .site_widget          {display:flex;
+                                      flex-direction: column;
+                                    }
+                                    .widget_img {margin-top:15px;}
+
+                                    nav ul li   	             {display:flex;}
+                            
+nav ul li a                         {padding-left:1.5em;
+                                      padding-right: 1.5em;}
+
+
+
+                                      
+                                    
+                                        }
+
+                          
+
+
+                     /* Media quieries =<1200px */ 
+                                
+  @media screen and (min-width:1200px) {
+
+a                                       {
+                                        color:black;
+                                        font-size:1.2em;}
+                                
+.header_content  nav ul                 {
+                                        text-align: center;
+                                         display: flex;
+                                         flex-wrap:center;
+                                         justify-content: center ;
+                                         align-content: center;
+                                         position:absolute;
+                                         margin-left:7%;}
+                                         
+.site_widget                             {display:flex;
+                                          flex-direction: column;}
+
+
+                                          
+                                          }
+                                        
+  
+nav ul li a                             {padding-left:2em;
+                                        padding-right: 2em;
+                                                                
+                                                                
+                                                                }
+
+                                        
+                                        
+                                        
+
+
+  

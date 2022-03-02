@@ -1,0 +1,19 @@
+#name, #email, #text, #submit, #telnr, #age, .gender, #male, #female, #Undef, .cuisine, .color, #text, #myfile, #myurl, #reset
+                        {display: block;
+                        width:80%; 
+                        margin-left: 0px;
+                        padding:10px;
+                        border-radius:5px;
+                        opacity:0.8;
+                        filter:blur(0.1px);}
+
+#French, #Italian, #Spanish, #Arabic {margin-right: 5px;
+                                      }
+
+#name, #email, #text, #submit, #myfile, #myurl, #reset {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                               color: grey}
+ 
+label, #submit {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:grey;}
+
+.site_content {margin-top: 20px;}
